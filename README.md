@@ -53,8 +53,8 @@ Javascript
 
 	$('.btn').on('click', function(e) {
 		if($(this).attr('data-click-state') == 0) {
-			    $(this).attr('data-click-state', 1);
-			    thisAppearAnimation('.alert-primary', 0);
+		    $(this).attr('data-click-state', 1);
+		    thisAppearAnimation('.alert-primary', 0);
 		} else {
 		    $(this).attr('data-click-state', 0);
 		    thisCloseAnimation('.alert-primary', 1000);
