@@ -1,3 +1,11 @@
+/*
+* Animate.css + jQuery.appear.js - Functions
+* https://github.com/BioButterfly/Animate.css_jQuery.appear.js
+* https://codepen.io/BioButterfly/pen/oRvxBE
+* https://biobutterfly.com
+*
+* Copyright (c) 2019 BioButterfly.com
+*/
 function thisAppearAnimation(thatID, Ypos, delay, speed){
 	$(thatID).appear(function() {
 		$(this).each(function(){
