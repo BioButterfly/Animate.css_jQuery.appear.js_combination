@@ -40,6 +40,6 @@ Appear Animate without html speed/delay attributes - ID/Class, Ypos, delay, spee
         }
     });
 
-This script use https://daneden.github.io/animate.css/ animate.css and https://github.com/bas2k/jquery.appear/ jquery.appear.js
+This script use https://daneden.github.io/animate.css/ and https://github.com/bas2k/jquery.appear/
 
-&copy;2019 - http://biobutterfly.com BioButterfly.com
+&copy;2019 - http://biobutterfly.com
