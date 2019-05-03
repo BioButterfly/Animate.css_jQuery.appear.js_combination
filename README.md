@@ -13,9 +13,9 @@ Add CSS Style
 
 - - - -
 
-Add class "animated".
+Add "animated" class to the html tag you want to animate.
 
-Add attributes: 
+..now add attributes: 
 * data-fx(required)
 * data-delay(optional)
 * data-speed(optional)
@@ -30,17 +30,17 @@ Add attributes:
 
 ## Javascript functions
 
-Appear Animations
+Appear Animations - ID/Class, Ypos,
 
 	thisAppearAnimation('.alert', 0);
 
 
-Appear without appear screen position (Ypos)
+Appear even if it's not on screen - ID/Class
 
 	thisAnimation('.btn');
 
 
-Appear Animate without html speed/delay attributes - ID/Class, Ypos, delay, speed
+Appear Animate without speed/delay attributes - ID/Class, Ypos, delay, speed
 
 	thisAppearAnimation('.toast', -129, 0, 1);
     
