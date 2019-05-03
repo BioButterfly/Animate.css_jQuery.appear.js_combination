@@ -28,7 +28,7 @@ Add `animated` class to the html tag you want to animate.
 | `data-delay-close` | `optional` |
 | `data-speed-close` | `optional` |
 
-> _**Note**: `speed` and `delay` are expressed in second._
+> _**Note**: `speed` and `delay` are expressed in second. Full animations: https://github.com/daneden/animate.css/blob/master/README.md#animations_
 
 - - - -
 
