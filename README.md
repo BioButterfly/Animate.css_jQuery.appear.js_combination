@@ -38,7 +38,7 @@ Add `animated` class to the html tag you want to animate
 
 ## Javascript functions
 
-Appear Animations - `ID/Class`, `Ypos`,
+Appear Animations - `ID/Class`, `Ypos`
 
 ```javascript
 thisAppearAnimation('.alert', 0);
