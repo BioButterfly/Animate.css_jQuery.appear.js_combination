@@ -4,7 +4,7 @@ https://codepen.io/BioButterfly/pen/oRvxBE
 
 ## Usage
 
-Add CSS Style
+Add CSS Style to hide components
 
 ```html
 <style>
