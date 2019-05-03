@@ -15,7 +15,7 @@ Add CSS Style to hide components
 
 - - - -
 
-Add `animated` class to the html tag you want to animate.
+Add `animated` class to the html tag you want to animate
 
 ..now add attributes: 
 
@@ -78,6 +78,7 @@ $('.btn').on('click', function(e) {
 });
 ```
 
+## Credits
 This script is based on https://github.com/daneden/animate.css and https://github.com/bas2k/jquery.appear/
 
 &copy;2019 - https://biobutterfly.com
