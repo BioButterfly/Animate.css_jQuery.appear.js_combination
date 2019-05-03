@@ -65,4 +65,4 @@ Javascript
 
 This script use https://daneden.github.io/animate.css/ and https://github.com/bas2k/jquery.appear/
 
-&copy;2019 - http://biobutterfly.com
+&copy;2019 - https://biobutterfly.com
