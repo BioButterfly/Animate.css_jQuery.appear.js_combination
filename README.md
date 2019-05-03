@@ -18,6 +18,8 @@ Add attributes: * data-fx(required)
 * data-delay-close(optional)
 * data-speed-close(optional)
 
+*
+
 	<div class="alert animated" data-fx="fadeIn" data-delay="0" data-speed="1" data-fx-close="fadeOut" data-delay-close="0" data-speed-close="0.5">Primary</div>
 
 
