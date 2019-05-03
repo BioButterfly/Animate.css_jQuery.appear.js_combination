@@ -7,10 +7,10 @@ https://codepen.io/BioButterfly/pen/oRvxBE
 Add CSS Style
 
 ```html
-	<style>
-		/* Hide Animate Section */
-		.animated {visibility: hidden;}
-	</style>
+<style>
+	/* Hide Animate Section */
+	.animated {visibility: hidden;}
+</style>
 ```
 
 - - - -
@@ -28,7 +28,7 @@ Add "animated" class to the html tag you want to animate.
 - - - -
 
 ```html
-	<div class="alert animated" data-fx="fadeIn" data-delay="0" data-speed="1" data-fx-close="fadeOut" data-delay-close="0" data-speed-close="0.5">Primary</div>
+<div class="alert animated" data-fx="fadeIn" data-delay="0" data-speed="1" data-fx-close="fadeOut" data-delay-close="0" data-speed-close="0.5">Primary</div>
 ```
 
 ## Javascript functions
@@ -36,19 +36,19 @@ Add "animated" class to the html tag you want to animate.
 Appear Animations - ID/Class, Ypos,
 
 ```javascript
-	thisAppearAnimation('.alert', 0);
+thisAppearAnimation('.alert', 0);
 ```
 
 Appear even if it's not on screen - ID/Class
 
 ```javascript
-	thisAnimation('.btn');
+thisAnimation('.btn');
 ```
 
 Appear Animate without speed/delay attributes - ID/Class, Ypos, delay, speed
 
 ```javascript
-	thisAppearAnimation('.toast', -129, 0, 1);
+thisAppearAnimation('.toast', -129, 0, 1);
 ```
 
 ## Usage with additional options - open/close animations
@@ -56,21 +56,21 @@ Appear Animate without speed/delay attributes - ID/Class, Ypos, delay, speed
 Add tag
 
 ```html
-	<button type="button" class="btn animated" data-fx="fadeInUp" data-delay="0" data-speed="1" data-click-state="1">Primary</button>
+<button type="button" class="btn animated" data-fx="fadeInUp" data-delay="0" data-speed="1" data-click-state="1">Primary</button>
 ```
 
 Javascript
 
 ```javascript
-	$('.btn').on('click', function(e) {
-		if($(this).attr('data-click-state') == 0) {
-		    $(this).attr('data-click-state', 1);
-		    thisAppearAnimation('.alert-primary', 0);
-		} else {
-		    $(this).attr('data-click-state', 0);
-		    thisCloseAnimation('.alert-primary', 1000);
-		}
-	});
+$('.btn').on('click', function(e) {
+	if($(this).attr('data-click-state') == 0) {
+	    $(this).attr('data-click-state', 1);
+	    thisAppearAnimation('.alert-primary', 0);
+	} else {
+	    $(this).attr('data-click-state', 0);
+	    thisCloseAnimation('.alert-primary', 1000);
+	}
+});
 ```
 
 This script is based on https://daneden.github.io/animate.css/ and https://github.com/bas2k/jquery.appear/
