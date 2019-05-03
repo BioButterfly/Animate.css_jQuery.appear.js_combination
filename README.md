@@ -18,12 +18,15 @@ Add CSS Style
 Add `animated` class to the html tag you want to animate.
 
 ..now add attributes: 
-* data-fx(required)
-* data-delay(optional)
-* data-speed(optional)
-* data-fx-close(optional)
-* data-delay-close(optional)
-* data-speed-close(optional)
+
+| Attributes | Require |
+| ---------- | ---------- |
+| `data-fx` | `required` |
+| `data-delay` | `optional` |
+| `data-speed` | `optional` |
+| `data-fx-close` | `optional` |
+| `data-delay-close` | `optional` |
+| `data-speed-close` | `optional` |
 
 - - - -
 
