@@ -75,6 +75,27 @@ $('.btn-primary').on('click', function(e) {
 		</pre>
 
 		<div class="pt-2 mt-5">
+			<h1 class="badges animated" data-fx="fadeInUp" data-delay="0" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h1>
+			<h2 class="badges animated" data-fx="fadeInUp" data-delay="0.3" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h2>
+			<h3 class="badges animated" data-fx="fadeInUp" data-delay="0.6" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h3>
+			<h4 class="badges animated" data-fx="fadeInUp" data-delay="0.9" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h4>
+			<h5 class="badges animated" data-fx="fadeInUp" data-delay="1.2" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h5>
+			<h6 class="badges animated" data-fx="fadeInUp" data-delay="1.5" data-speed="1">Example heading <span class="badge badge-secondary">New</span></h6>
+
+			<span class="badges badge badge-primary animated" data-fx="fadeInUp" data-delay="0" data-speed="1">Primary</span>
+			<span class="badges badge badge-secondary animated" data-fx="fadeInUp" data-delay="0.3" data-speed="1">Secondary</span>
+			<span class="badges badge badge-success animated" data-fx="fadeInUp" data-delay="0.6" data-speed="1">Success</span>
+			<span class="badges badge badge-danger animated" data-fx="fadeInUp" data-delay="0.9" data-speed="1">>Danger</span>
+			<span class="badges badge badge-warning animated" data-fx="fadeInUp" data-delay="1.2" data-speed="1">Warning</span>
+			<span class="badges badge badge-info animated" data-fx="fadeInUp" data-delay="1.5" data-speed="1">Info</span>
+			<span class="badges badge badge-light animated" data-fx="fadeInUp" data-delay="1.9" data-speed="1">Light</span>
+			<span class="badges badge badge-dark animated" data-fx="fadeInUp" data-delay="2.1" data-speed="1">Dark</span>
+		</div>
+		<pre class="highlight d-flex mt-5">
+			<code>thisAppearAnimation('.badges', 0); - ID/Class, Ypos</code>
+		</pre>
+
+		<div class="pt-2 mt-5">
 			<h3 class="mb-4">Animate without speed/delay attributes</h3>
 			<div class="toast animated bg-light" role="alert" aria-live="assertive" aria-atomic="true" data-fx="fadeInUp">
 				<div class="toast-header">
@@ -110,11 +131,12 @@ $('.btn-primary').on('click', function(e) {
 
 <script>
 
-	//Appear Animations
-	thisAppearAnimation('.alert', 0);
-
 	//Appear without appear screen position (Ypos)
-	thisAnimation('.btn');
+	thisAnimation('.alert');
+
+	//Appear Animations
+	thisAppearAnimation('.btn', 0);
+	thisAppearAnimation('.badges', 0);
 
 	//Appear Animate without html speed/delay attributes - ID/Class, Ypos, delay, speed
 	thisAppearAnimation('.toast', -129, 0, 1);
