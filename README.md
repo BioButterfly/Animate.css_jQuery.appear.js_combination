@@ -73,6 +73,6 @@ $('.btn').on('click', function(e) {
 });
 ```
 
-This script is based on https://daneden.github.io/animate.css/ and https://github.com/bas2k/jquery.appear/
+This script is based on https://github.com/daneden/animate.css and https://github.com/bas2k/jquery.appear/
 
 &copy;2019 - https://biobutterfly.com
