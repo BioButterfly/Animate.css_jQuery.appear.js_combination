@@ -50,7 +50,7 @@ Appear even if it's not on screen - `ID/Class`
 thisAnimation('.btn');
 ```
 
-Appear Animate without speed/delay attributes - `ID/Class`, `Ypos`, `delay`, `speed`
+Appear Animate without html `delay/speed` attributes - `ID/Class`, `Ypos`, `delay`, `speed`
 
 ```javascript
 thisAppearAnimation('.toast', -129, 0, 1);
