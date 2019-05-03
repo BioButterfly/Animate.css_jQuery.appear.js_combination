@@ -13,7 +13,8 @@ Add CSS Style
 
 Add class "animated".
 
-Add attributes: * data-fx(required)
+Add attributes: 
+* data-fx(required)
 * data-delay(optional)
 * data-speed(optional)
 * data-fx-close(optional)
