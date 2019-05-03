@@ -15,7 +15,7 @@ Add CSS Style
 
 - - - -
 
-Add "animated" class to the html tag you want to animate.
+Add `animated` class to the html tag you want to animate.
 
 ..now add attributes: 
 * data-fx(required)
@@ -53,7 +53,7 @@ thisAppearAnimation('.toast', -129, 0, 1);
 
 ## Usage with additional options - open/close animations
 
-Add tag
+Add `data-click-state="1"` attribute
 
 ```html
 <button type="button" class="btn animated" data-fx="fadeInUp" data-delay="0" data-speed="1" data-click-state="1">Primary</button>
