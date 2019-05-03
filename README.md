@@ -38,19 +38,19 @@ Add `animated` class to the html tag you want to animate.
 
 ## Javascript functions
 
-Appear Animations - ID/Class, Ypos,
+Appear Animations - `ID/Class`, `Ypos`,
 
 ```javascript
 thisAppearAnimation('.alert', 0);
 ```
 
-Appear even if it's not on screen - ID/Class
+Appear even if it's not on screen - `ID/Class`
 
 ```javascript
 thisAnimation('.btn');
 ```
 
-Appear Animate without speed/delay attributes - ID/Class, Ypos, delay, speed
+Appear Animate without speed/delay attributes - `ID/Class`, `Ypos`, `delay`, `speed`
 
 ```javascript
 thisAppearAnimation('.toast', -129, 0, 1);
