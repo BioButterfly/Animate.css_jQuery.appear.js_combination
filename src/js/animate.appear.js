@@ -1,5 +1,5 @@
 /*
-* Animate.css + jQuery.appear.js - Functions
+* Animate.css+jQuery.appear.js - Usage Functions
 * https://github.com/BioButterfly/Animate.css_jQuery.appear.js
 * https://codepen.io/BioButterfly/pen/oRvxBE
 * https://biobutterfly.com
