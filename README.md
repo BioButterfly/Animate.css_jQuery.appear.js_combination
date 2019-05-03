@@ -1,5 +1,9 @@
 # Animate.css + jQuery.appear.js
 
+Codepen
+
+https://codepen.io/BioButterfly/pen/oRvxBE
+
 ## Usage
 
 Add CSS Style
