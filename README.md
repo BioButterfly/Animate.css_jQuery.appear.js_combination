@@ -9,13 +9,13 @@ Add CSS Style to hide components
 ```html
 <style>
 	/* Hide Animate Section */
-	.animated {visibility: hidden;}
+	.animate {visibility: hidden; opacity: 0;}
 </style>
 ```
 
 - - - -
 
-Add `animated` class to the html tag you want to animate
+Add `animate` class to the html tag you want to animate
 
 ..now add attributes: 
 
@@ -33,7 +33,7 @@ Add `animated` class to the html tag you want to animate
 - - - -
 
 ```html
-<div class="alert animated" data-fx="fadeIn" data-delay="0" data-speed="1" data-fx-close="fadeOut" data-delay-close="0" data-speed-close="0.5">Primary</div>
+<div class="alert animate" data-fx="fadeIn" data-delay="0" data-speed="1" data-fx-close="fadeOut" data-delay-close="0" data-speed-close="0.5">Primary</div>
 ```
 
 ## Javascript functions
@@ -61,7 +61,7 @@ thisAppearAnimation('.toast', -129, 0, 1);
 Add `data-click-state="1"` attribute
 
 ```html
-<button type="button" class="btn animated" data-fx="fadeInUp" data-delay="0" data-speed="1" data-click-state="1">Primary</button>
+<button type="button" class="btn animate" data-fx="fadeInUp" data-delay="0" data-speed="1" data-click-state="1">Primary</button>
 ```
 
 Javascript
