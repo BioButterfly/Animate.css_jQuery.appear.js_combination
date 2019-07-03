@@ -1,20 +1,20 @@
 @charset "utf-8";
-/* CSS Document */
 
+/* CSS Document */
 html,
 body {
 	font-size: 100%;
 	outline: 0;
 	border: 0;
-	color: #111; overflow-x: hidden;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	color: #111;
 }
-
 
 *, ::after, ::before {
 	box-sizing: border-box;
 }
+
+/* Hide Animate Section */
+.animate {visibility: hidden; opacity: 0;}
 
 a {color: #bd2130;}
 a:hover {text-decoration: none;}
